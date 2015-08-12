@@ -1,4 +1,6 @@
 li{
+	display: inline-block;
+	margin: auto;
 	color: red;
 }
 li:hover{
