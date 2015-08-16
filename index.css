@@ -1,6 +1,19 @@
+body{
+
+}
+.header-container{
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	max-width: 100%;
+}
+.header-container ul{
+	width: 100%;
+	display: inline-block;
+	margin: 80px auto;
+}
 li{
 	display: inline-block;
-	margin: auto;
 	color: red;
 }
 li:hover{
