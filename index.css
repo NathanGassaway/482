@@ -1,21 +1,28 @@
-body{
+.header-container {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  max-width: 100%; }
 
-}
-.header-container{
-	display: inline-block;
-	position: relative;
-	width: 100%;
-	max-width: 100%;
-}
-.header-container ul{
-	width: 100%;
-	display: inline-block;
-	margin: 80px auto;
-}
-li{
-	display: inline-block;
-	color: red;
-}
-li:hover{
-	color: #ccc;
-}
+.header-container:hover {
+  color: black; }
+
+.header-container ul {
+  width: 100%;
+  display: inline-block;
+  margin: 80px auto; }
+
+li {
+  display: inline-block;
+  color: red; }
+
+li:hover {
+  color: #ccc; }
+
+video {
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute; }
+
+/*# sourceMappingURL=index.css.map */
