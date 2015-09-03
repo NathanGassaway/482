@@ -1,4 +1,5 @@
 body {
+  margin: 0;
   background-color: black; }
 
 .header-container {
@@ -13,19 +14,21 @@ body {
 .header-container ul {
   width: 100%;
   display: inline-block;
-  margin: 80px auto; }
+  margin: 40px auto; }
 
 li {
   display: inline-block;
-  color: red; }
+  color: white;
+  margin-right: 100px; }
 
 li:hover {
-  color: #ccc; }
+  color: #ccc;
+  cursor: pointer; }
 
 video {
   width: 100%;
+  position: relative;
   left: 0;
-  top: 0;
-  position: absolute; }
+  top: 0; }
 
 /*# sourceMappingURL=index.css.map */
