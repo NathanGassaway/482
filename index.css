@@ -7,28 +7,25 @@ body {
   position: relative;
   width: 100%;
   max-width: 100%; }
-
-.header-container:hover {
-  color: black; }
-
-.header-container ul {
-  width: 100%;
-  display: inline-block;
-  margin: 40px auto; }
+  .header-container ul {
+    width: 100%;
+    display: inline-block;
+    margin: 40px auto; }
 
 li {
   display: inline-block;
   color: white;
   margin-right: 100px; }
-
-li:hover {
-  color: #ccc;
-  cursor: pointer; }
+  li:hover {
+    color: #ccc;
+    cursor: pointer; }
 
 video {
   width: 100%;
   position: relative;
   left: 0;
   top: 0; }
+
+/*# sourceMappingURL=index.css.map */
 
 /*# sourceMappingURL=index.css.map */

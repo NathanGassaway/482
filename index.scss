@@ -1,33 +1,38 @@
-body{
-	margin: 0;
-	background-color: black;
+body {
+  margin: 0;
+  background-color: black;
 }
-.header-container{
-	display: inline-block;
-	position: relative;
-	width: 100%;
-	max-width: 100%;
+
+.header-container {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+
+  ul {
+    width: 100%;
+    display: inline-block;
+    margin: 40px auto;
+  }
 }
-.header-container:hover{
-	color: black;
+
+li {
+  display: inline-block;
+  color: white;
+  margin-right: 100px;
+
+  &:hover {
+    color: #ccc;
+    cursor: pointer;
+  }
 }
-.header-container ul{
-	width: 100%;
-	display: inline-block;
-	margin: 40px auto;
+
+video {
+  width: 100%;
+  position: relative;
+  left: 0;
+  top: 0;
 }
-li{
-	display: inline-block;
-	color: white;
-	margin-right: 100px;
-}
-li:hover{
-	color: #ccc;
-	cursor: pointer;
-}
-video{
-	width: 100%;
-	position: relative;
-	left: 0;
-	top: 0;
-}
+
+
+/*# sourceMappingURL=index.css.map */
