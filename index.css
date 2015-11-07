@@ -2,6 +2,18 @@ body {
   margin: 0;
   background-color: black; }
 
+.video-container {
+  width: 100%;
+  position: relative;
+  left: 0;
+  top: 0; }
+
+video {
+  width: 100%;
+  position: relative;
+  left: 0;
+  top: 0; }
+
 .header-container {
   display: inline-block;
   position: relative;
@@ -13,18 +25,18 @@ body {
     margin: 40px auto; }
 
 li {
+  font-family: "Helvetica Nueu", Helvetica;
   display: inline-block;
   color: white;
   margin-right: 100px; }
   li:hover {
     color: #ccc;
     cursor: pointer; }
-
-video {
-  width: 100%;
-  position: relative;
-  left: 0;
-  top: 0; }
+  li a {
+    text-decoration: none; }
+    li a:visited {
+      text-decoration: none;
+      color: white; }
 
 /*# sourceMappingURL=index.css.map */
 

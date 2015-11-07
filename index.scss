@@ -3,6 +3,20 @@ body {
   background-color: black;
 }
 
+.video-container{
+  width: 100%;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+video {
+  width: 100%;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
 .header-container {
   display: inline-block;
   position: relative;
@@ -17,6 +31,7 @@ body {
 }
 
 li {
+  font-family: "Helvetica Nueu", Helvetica;
   display: inline-block;
   color: white;
   margin-right: 100px;
@@ -25,13 +40,13 @@ li {
     color: #ccc;
     cursor: pointer;
   }
-}
-
-video {
-  width: 100%;
-  position: relative;
-  left: 0;
-  top: 0;
+  a {
+    text-decoration: none;
+      &:visited {
+      text-decoration: none;
+      color: white;
+    }
+  }
 }
 
 
