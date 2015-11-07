@@ -1,4 +1,6 @@
 $(document).ready(function(){
+	
+	document.getElementById("video").controls = false;
 
 	//if user is still at top of page
 	setTimeout(function(){
