@@ -38,6 +38,11 @@ li {
       text-decoration: none;
       color: white; }
 
+@media screen and (max-width: 480px) {
+  li {
+    display: block;
+    font-size: 100px;
+    text-align: center; } }
 /*# sourceMappingURL=index.css.map */
 
 /*# sourceMappingURL=index.css.map */
