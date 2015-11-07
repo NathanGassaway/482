@@ -48,14 +48,15 @@ li {
     }
   }
 }
-@media screen and (max-width: 480px) {
-
+@media screen and (max-width: 560px) {
+  .video-container{
+    display: none;
+  }
   li{
     display: block;
     font-size: 100px;
     text-align: center;
   }
-
 }
 
 
