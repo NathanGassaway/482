@@ -51,9 +51,10 @@ video:hover{
 
 li {
   font-family: "Helvetica Nueu", Helvetica, sans-serif;
-  display: inline-block;
   color: white;
-  margin-right: 100px;
+  list-style: none;
+  margin-top: 10px;
+  font-size: 2em;
 
   &:hover {
     color: #ccc;
