@@ -11,11 +11,14 @@ body {
 }
 
 video {
-  width: 100%;
+  width: 110%;
   position: relative;
   left: 0;
   top: 0;
   background-color: black;
+}
+video:hover{
+  cursor: pointer;
 }
 
 .header-container {
@@ -34,8 +37,20 @@ video {
   }
 }
 
+.whoops-container {
+  position: relative;
+  color: white;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  top: 250px;
+  a {
+    color: #ccc;
+    text-decoration: none;
+  }
+}
+
 li {
-  font-family: "Helvetica Nueu", Helvetica;
+  font-family: "Helvetica Nueu", Helvetica, sans-serif;
   display: inline-block;
   color: white;
   margin-right: 100px;

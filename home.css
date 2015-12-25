@@ -9,11 +9,14 @@ body {
   top: 0; }
 
 video {
-  width: 100%;
+  width: 110%;
   position: relative;
   left: 0;
   top: 0;
   background-color: black; }
+
+video:hover {
+  cursor: pointer; }
 
 .header-container {
   background-color: black;
@@ -28,8 +31,18 @@ video {
     display: inline-block;
     margin: 40px auto; }
 
+.whoops-container {
+  position: relative;
+  color: white;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  top: 250px; }
+  .whoops-container a {
+    color: #ccc;
+    text-decoration: none; }
+
 li {
-  font-family: "Helvetica Nueu", Helvetica;
+  font-family: "Helvetica Nueu", Helvetica, sans-serif;
   display: inline-block;
   color: white;
   margin-right: 100px; }
