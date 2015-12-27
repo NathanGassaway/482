@@ -1,22 +1,25 @@
 body {
   margin: 0;
   background-color: black;
+  font-weight: 200;
 }
 
+
 .video-container{
-  width: 100%;
+  width: 110%;
   position: relative;
   left: 0;
   top: 0;
 }
 
-video {
+.landing-video {
   width: 110%;
   position: relative;
   left: 0;
   top: 0;
   background-color: black;
 }
+
 video:hover{
   cursor: pointer;
 }
@@ -53,12 +56,12 @@ li {
   font-family: "Helvetica Nueu", Helvetica, sans-serif;
   color: white;
   list-style: none;
-  margin-top: 10px;
-  font-size: 2em;
+  margin-top: 5px;
+  font-size: 30px;
 
   &:hover {
     color: #ccc;
-    cursor: pointer;
+    
   }
   a {
     color: blue;
@@ -67,6 +70,21 @@ li {
       text-decoration: none;
       color: white;
     }
+  }
+}
+
+/*video subpage*/
+
+.video-player{
+  @extend .landing-video;
+  width: 100%;
+}
+
+.video-header{
+  margin-bottom: 5px;
+  a{
+    font-size: 30px;
+    padding-left: 20px;
   }
 }
 

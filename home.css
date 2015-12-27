@@ -1,14 +1,15 @@
 body {
   margin: 0;
-  background-color: black; }
+  background-color: black;
+  font-weight: 200; }
 
 .video-container {
-  width: 100%;
+  width: 110%;
   position: relative;
   left: 0;
   top: 0; }
 
-video {
+.landing-video, .video-player {
   width: 110%;
   position: relative;
   left: 0;
@@ -45,17 +46,26 @@ li {
   font-family: "Helvetica Nueu", Helvetica, sans-serif;
   color: white;
   list-style: none;
-  margin-top: 10px;
-  font-size: 2em; }
+  margin-top: 5px;
+  font-size: 30px; }
   li:hover {
-    color: #ccc;
-    cursor: pointer; }
+    color: #ccc; }
   li a {
     color: blue;
     text-decoration: none; }
     li a:visited {
       text-decoration: none;
       color: white; }
+
+/*video subpage*/
+.video-player {
+  width: 100%; }
+
+.video-header {
+  margin-bottom: 5px; }
+  .video-header a {
+    font-size: 30px;
+    padding-left: 20px; }
 
 @media screen and (max-width: 720px) {
   body {
