@@ -78,6 +78,9 @@ li {
   .header-container {
     position: relative; }
 
+  ul {
+    padding: 0px; }
+
   li {
     display: block;
     font-size: 100px;

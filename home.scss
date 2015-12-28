@@ -60,7 +60,7 @@ li {
   font-size: 30px;
 
   &:hover {
-    color: #ccc;
+     color: #ccc;
     
   }
   a {
@@ -98,6 +98,9 @@ li {
   }
   .header-container{
     position: relative;
+  }
+  ul{
+    padding: 0px;
   }
   li{
     display: block;
