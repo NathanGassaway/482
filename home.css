@@ -57,6 +57,9 @@ li {
       text-decoration: none;
       color: white; }
 
+.text-enter {
+  display: none; }
+
 /*video subpage*/
 .video-player {
   width: 100%; }
@@ -74,6 +77,12 @@ li {
 
   .video-container {
     display: none; }
+
+  .text-enter {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    top: 100px; }
 
   .header-container {
     position: relative; }

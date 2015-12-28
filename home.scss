@@ -4,7 +4,6 @@ body {
   font-weight: 200;
 }
 
-
 .video-container{
   width: 110%;
   position: relative;
@@ -72,7 +71,9 @@ li {
     }
   }
 }
-
+.text-enter{
+  display: none;
+}
 /*video subpage*/
 
 .video-player{
@@ -95,6 +96,12 @@ li {
   }
   .video-container{
     display: none;
+  }
+  .text-enter{
+    cursor: pointer;
+    position: relative;
+    display: block;
+    top: 100px;
   }
   .header-container{
     position: relative;
