@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	var openLanding = document.getElementById("landing-video");
+	var openLanding = document.getElementById("landing-container");
 
 	// document.getElementById("video").controls = false;
 
@@ -31,5 +31,4 @@ $(document).ready(function(){
 	openLanding.onclick = function(){
     window.location.href = "http://www.nathangassaway.com/home";
   }
-
 });

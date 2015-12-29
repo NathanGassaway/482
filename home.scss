@@ -3,7 +3,9 @@ body {
   background-color: black;
   font-weight: 200;
 }
+.landing-container{
 
+}
 .video-container{
   width: 110%;
   position: relative;
@@ -11,7 +13,7 @@ body {
   top: 0;
 }
 
-.landing-video {
+.background-video {
   width: 110%;
   position: relative;
   left: 0;
@@ -77,7 +79,7 @@ li {
 /*video subpage*/
 
 .video-player{
-  @extend .landing-video;
+  @extend .background-video;
   width: 100%;
 }
 
