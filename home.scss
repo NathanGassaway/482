@@ -1,8 +1,42 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300&subset=latin,greek);
+
 body {
   margin: 0;
-  background-color: black;
+  background-color: #1a1a1a;
   font-weight: 200;
 }
+
+video:hover{
+  cursor: pointer;
+}
+
+/*website navigator*/
+
+li {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  list-style: none;
+  font-size: 25px;
+  a {
+    color: white;
+    text-decoration: none;
+      &:hover {
+      text-decoration: none;
+      color: #ccc;
+    }
+  }
+}
+
+.content-container{
+  top: 50px;
+  display:flex;
+  justify-content:center;
+  margin: 20% 0;
+}
+
+/*landing video*/
+
 .video-container{
   width: 110%;
   position: relative;
@@ -18,31 +52,17 @@ body {
   background-color: black;
 }
 
-video:hover{
-  cursor: pointer;
-}
-
-.header-container {
-  background-color: black;
+.text-enter{
   display: none;
-  position: fixed;
-  z-index: 50;
-  bottom: 0;
-  width: 100%;
-  max-width: 100%;
-
-  ul {
-    width: 100%;
-    display: inline-block;
-    margin: 40px auto;
-  }
 }
+
+/*404 styling*/
 
 .whoops-container {
   position: relative;
   color: white;
   text-align: center;
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   top: 250px;
   a {
     color: #ccc;
@@ -50,29 +70,6 @@ video:hover{
   }
 }
 
-li {
-  font-family: "Helvetica Nueu", Helvetica, sans-serif;
-  color: white;
-  list-style: none;
-  margin-top: 5px;
-  font-size: 30px;
-
-  &:hover {
-     color: #ccc;
-    
-  }
-  a {
-    color: blue;
-    text-decoration: none;
-      &:visited {
-      text-decoration: none;
-      color: white;
-    }
-  }
-}
-.text-enter{
-  display: none;
-}
 /*video subpage*/
 
 .video-player{
@@ -87,6 +84,7 @@ li {
     padding-left: 20px;
   }
 }
+/*landing page when resized*/
 
 @media screen and (max-width: 720px) {
   body{
@@ -105,6 +103,9 @@ li {
   .header-container{
     position: relative;
   }
+  .content-container{
+    margin:0;
+  }
   ul{
     padding: 0px;
   }
@@ -118,6 +119,9 @@ li {
   animation: animation 1000ms linear both;
 
   }
+
+/*resize bounce*/
+
 @-webkit-keyframes animation { 
   0% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -300, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -300, 0, 0, 1); }
   1.3% { -webkit-transform: matrix3d(7.017, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -237.02, 0, 0, 1); transform: matrix3d(7.017, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -237.02, 0, 0, 1); }

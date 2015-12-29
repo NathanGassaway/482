@@ -1,8 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300&subset=latin,greek);
 body {
   margin: 0;
-  background-color: black;
+  background-color: #1a1a1a;
   font-weight: 200; }
 
+video:hover {
+  cursor: pointer; }
+
+/*website navigator*/
+li {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  list-style: none;
+  font-size: 25px; }
+  li a {
+    color: white;
+    text-decoration: none; }
+    li a:hover {
+      text-decoration: none;
+      color: #ccc; }
+
+.content-container {
+  top: 50px;
+  display: flex;
+  justify-content: center;
+  margin: 20% 0; }
+
+/*landing video*/
 .video-container {
   width: 110%;
   position: relative;
@@ -16,49 +40,19 @@ body {
   top: 0;
   background-color: black; }
 
-video:hover {
-  cursor: pointer; }
+.text-enter {
+  display: none; }
 
-.header-container {
-  background-color: black;
-  display: none;
-  position: fixed;
-  z-index: 50;
-  bottom: 0;
-  width: 100%;
-  max-width: 100%; }
-  .header-container ul {
-    width: 100%;
-    display: inline-block;
-    margin: 40px auto; }
-
+/*404 styling*/
 .whoops-container {
   position: relative;
   color: white;
   text-align: center;
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   top: 250px; }
   .whoops-container a {
     color: #ccc;
     text-decoration: none; }
-
-li {
-  font-family: "Helvetica Nueu", Helvetica, sans-serif;
-  color: white;
-  list-style: none;
-  margin-top: 5px;
-  font-size: 30px; }
-  li:hover {
-    color: #ccc; }
-  li a {
-    color: blue;
-    text-decoration: none; }
-    li a:visited {
-      text-decoration: none;
-      color: white; }
-
-.text-enter {
-  display: none; }
 
 /*video subpage*/
 .video-player {
@@ -70,6 +64,7 @@ li {
     font-size: 30px;
     padding-left: 20px; }
 
+/*landing page when resized*/
 @media screen and (max-width: 720px) {
   body {
     top: 0;
@@ -87,6 +82,9 @@ li {
   .header-container {
     position: relative; }
 
+  .content-container {
+    margin: 0; }
+
   ul {
     padding: 0px; }
 
@@ -99,6 +97,7 @@ li {
     -webkit-animation: animation 1000ms linear both;
     animation: animation 1000ms linear both; }
 
+  /*resize bounce*/
   @-webkit-keyframes animation {
     0% {
       -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -300, 0, 0, 1);
