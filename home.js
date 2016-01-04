@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
-	var openLanding = document.getElementById("landing-container");
-	var arrowContainer = document.getElementById("arrowContainer");
+	var openLanding = document.getElementById("landing-container"); //check this probs won't need
+	var arrowContainer = document.getElementById("arrowContainer"); //function in play.js
 
 	// document.getElementById("video").controls = false;
 
