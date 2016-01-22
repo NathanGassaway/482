@@ -209,7 +209,8 @@ li {
     left: 0; }
 
   .about {
-    font-size: 25px; }
+    font-size: 25px;
+    text-align: left; }
 
   .arrow-container {
     position: relative;
@@ -236,6 +237,8 @@ li {
 
   .content-container {
     margin: 0; }
+    .content-container ul {
+      margin: 30% auto; }
 
   .project-title {
     font-size: 50px; }
@@ -252,7 +255,7 @@ li {
 
   li {
     display: block;
-    font-size: 80px;
+    font-size: 65px;
     text-align: center; }
 
   li {
