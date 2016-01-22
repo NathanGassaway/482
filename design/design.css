@@ -1,0 +1,48 @@
+.project-content{
+  display: none;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 50;
+  background-color: #f0f0f0;
+}
+.project-info{
+  width: 30%;
+  float: left;
+  height: 100%;
+  position: fixed;
+  top: 90px;
+  h2{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+  }
+  p{
+    margin: auto;
+    display: block;
+    position: relative; 
+    width: 90%;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+  }
+}
+
+.project-images{
+  width: 70%;
+  float: right;
+  .slideshow{
+    width: 99%; 
+    overflow: hidden;
+    display: block;
+    margin: auto;
+    .slide{
+      width: 99%;
+      display: block;
+      margin: 1% auto;
+      border: 1px solid #1a1a1a;
+      background-color: #f0f0f0;
+    }
+  }
+}
+<p>Navpers is a response directed towards the translation of physical documents to the web. From PDF's to HTML, documents have been transformed through distribution on web. As a result, a new kind of document is created that is removed from the original print.</p>
+            <p>The site composes a variety of tools </p>
