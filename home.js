@@ -1,11 +1,8 @@
 $(document).ready(function(){
 
-<<<<<<< HEAD
 	var openLanding = document.getElementById("landing-container");
-=======
 	var openLanding = document.getElementById("landing-container"); //check this probs won't need
 	var arrowContainer = document.getElementById("arrowContainer"); //function in play.js
->>>>>>> design-page-developing
 
 	$(".arrow-button").click(function(){
 		window.location.href = "http://www.nathangassaway.com/home";
