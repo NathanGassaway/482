@@ -1,8 +1,6 @@
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,700&subset=latin,greek);
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,900);
-@import url(https://fonts.googleapis.com/css?family=Creepster);
-
 
 body {
   margin: 0;
@@ -34,13 +32,23 @@ li {
 
 /*about page and contact page*/
 
+.flex{
+  display:-webkit-box;
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
 .about{
   width: 50%;
   margin: auto;
 }
 
 .content-container{
-  display:flex;
+  @extend .flex;
   ul{
     margin: 20% auto;
   }
@@ -133,17 +141,13 @@ li {
 .design-container{
   height: 100%;
   width: 100%;
-  display: flex;
+  @extend .flex;
   flex-wrap: wrap;
   margin: auto;
 }
 
 .installation-container{
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  margin: auto;
+  @extend .design-container;
 }
 
 .project-sizing{
@@ -242,9 +246,9 @@ li {
 
 .project-content{
   display: none;
+  position: absolute;
   top: 0;
   left: 0;
-  position: absolute;
   width: 100%;
   z-index: 50;
   background-color: #f0f0f0;
