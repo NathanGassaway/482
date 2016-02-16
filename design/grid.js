@@ -3,7 +3,7 @@ $(document).ready(function(){
 	// var counter = 0;
 
 	$(".arrow-button").click(function(){
-		window.location.href = "http://www.nathangassaway.com/home";
+		window.location.href = "http://www.nathangassaway.com/";
 	});
 	openProject = function(){
 		$(".project-container").click(function(){
