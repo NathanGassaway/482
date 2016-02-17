@@ -7,7 +7,7 @@ $(document).ready(function(){
 	});
 
 	arrowContainer.onclick = function(){
-		window.location.href = "http://www.nathangassaway.com/home";
+		window.location.href = "http://www.nathangassaway.com/";
 	}
 
 });
