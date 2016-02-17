@@ -55,6 +55,9 @@ $(document).ready(function(){
 		// $(".project-container").eq(this).css("background-image")
 	};
 
+	// ajaxDelay = function(){
+	// }
+
 	// slideShow = function(){
 
 	// 	$(".slideshow").click(function(){

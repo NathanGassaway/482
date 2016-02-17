@@ -8,9 +8,9 @@ $(document).ready(function(){
 		window.location.href = "http://www.nathangassaway.com/";
 	});
 
-	openLanding.onclick = function(){
-	window.location.href = "http://www.nathangassaway.com/home";
-	}
+	// openLanding.onclick = function(){
+	// window.location.href = "http://www.nathangassaway.com/home";
+	// }
 
 
 });
