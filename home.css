@@ -9,11 +9,14 @@ video:hover {
   cursor: pointer; }
 
 /*website navigator*/
+ul {
+  padding: 0px; }
+
 li {
   font-family: 'Open Sans', sans-serif;
   color: white;
   list-style: none;
-  font-size: 25px;
+  font-size: 10px;
   font-weight: 300; }
   li a {
     color: white;
