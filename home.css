@@ -36,7 +36,7 @@ li {
   flex-wrap: wrap; }
 
 .about {
-  width: 50%;
+  width: 65%;
   margin: auto; }
 
 .content-container ul {
@@ -393,6 +393,5 @@ li {
     margin: none; }
     .project-images .slideshow {
       width: 100%; } }
-/*# sourceMappingURL=index.css.map */
 
 /*# sourceMappingURL=home.css.map */
