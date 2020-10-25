@@ -1,9 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,700&subset=latin,greek);
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,900);
 @import url(https://fonts.googleapis.com/css?family=Cousine);
+
+html{
+  margin: 0;
+  height: 100%;
+}
 body {
   margin: 0;
-  background-color: #1a1a1a;
+  height: 100%;
+  background-color: #f8f9fb;
   font-weight: 200; }
 
 video:hover {
@@ -11,39 +17,59 @@ video:hover {
 
 /*website navigator*/
 ul {
-  padding: 0px; }
+  padding: 0px; 
+}
 
 li {
   font-family: 'Cousine', monospace;
-  color: black;
   list-style: none;
   font-size: 10px;
   font-weight: 300; }
   li a {
-    color: black;
+    color: blue;
     text-decoration: none; }
     li a:hover {
       text-decoration: none;
       color: #ccc; }
 
-/*about page and contact page*/
-.flex, .content-container, .design-container, .installation-container {
+.content-container {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  align-items:center;
+  justify-content: center;
+  height: 100%;
+   }
 
-.about {
-  width: 100%;
-  margin: auto; }
+   @-webkit-keyframes rotation {
+  0% {
+    -webkit-transform: skewY(0deg);
+  }
+  25% {
+    -webkit-transform: skewY(5deg);
+  }
+  50% {
+    -webkit-transform: skewY(11deg);
+  }
+  75% {
+    -webkit-transform: skewY(5deg);
+  }
+  100% {
+    -webkit-transform: skewY(0deg);
+  }
+}
 
-.content-container ul {
-  margin: 20% auto; }
+.about-smile{
+  width: 300px;
+  justify-content: center;
+  cursor: pointer;
+  -webkit-animation: rotation 10s infinite linear;
+}
 
-/*arrows*/
 .arrow-container {
   position: fixed;
   z-index: 51;

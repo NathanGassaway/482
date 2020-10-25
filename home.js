@@ -4,7 +4,7 @@ $(document).ready(function(){
 	var openLanding = document.getElementById("landing-container"); //check this probs won't need
 	var arrowContainer = document.getElementById("arrowContainer"); //function in play.js
 
-	$(".arrow-button").click(function(){
+	$(".about-smile").click(function(){
 		window.location.href = "http://www.nathangassaway.com/";
 	});
 
