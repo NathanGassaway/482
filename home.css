@@ -24,7 +24,9 @@ li {
   font-family: 'Cousine', monospace;
   list-style: none;
   font-size: 10px;
-  font-weight: 300; }
+  font-weight: 300;
+  -webkit-animation: animation 1000ms linear both;
+  animation: animation 1000ms linear both; }
   li a {
     color: blue;
     text-decoration: none; }
