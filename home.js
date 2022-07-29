@@ -5,11 +5,11 @@ $(document).ready(function(){
 	var arrowContainer = document.getElementById("arrowContainer"); //function in play.js
 
 	$(".about-smile").click(function(){
-		window.location.href = "http://www.nathangassaway.com/";
+		window.location.href = "https://www.nathangassaway.com/";
 	});
 
 	// openLanding.onclick = function(){
-	// window.location.href = "http://www.nathangassaway.com/home";
+	// window.location.href = "https://www.nathangassaway.com/home";
 	// }
 
 
